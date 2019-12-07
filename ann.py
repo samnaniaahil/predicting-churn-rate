@@ -7,7 +7,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-
 # Importing the dataset
 dataset = pd.read_csv('Churn_Modelling.csv')
 # Excluding first 3 independent variables from dataset (row#, customer ID and surname) as they don't affect the output of the ANN (dependent variale))
